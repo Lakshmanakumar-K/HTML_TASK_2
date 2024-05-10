@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pan Card</title>
+    <style>
+        .heading {
+            background-color: brown;
+            color: white;
+            text-align: center;
+        }
+
+        u {
+            color: orange;
+        }
+
+        .main {
+            color: red;
+        }
+
+        body {
+            background-color: whitesmoke;
+        }
+
+        * {
+            margin: 0px;
+        }
+
+        table,
+        tr,
+        td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            background-color: blanchedalmond;
+        }
+
+        .prefix {
+            color: blue;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="heading">
+        <b>Request for the new PAN Card/ Changes Or Corrections in PAN Card</b><br>
+        <i>Field Marked with <span class="main">*</span> (asterik) are mandatory.To Avoid Mistake Please refer
+            <u>guidelines</u> and <u>instructions</u></i>
+    </div>
+    <table width="100%">
+        <tbody>
+            <tr>
+                <td></td>
+                <td>
+                    <span class="main">*</span>
+                    <b>Whether he is a Citizen Of India</b>
+                    <label for="yes" style="margin-left: 60px;">Yes</label>
+                    <input type="radio" name="" id="yes">
+                    <label for="no" style="margin-left: 20px;">No</label>
+                    <input type="radio" name="" id="no">
+
+                </td>
+            </tr>
+
+            <tr>
+                <td></td>
+                <td>
+                    <span class="main">*</span>
+                    <label for="pan"><b>Permanent Account Number (PAN)</b></label>
+                    <input type="text" name="" id="pan">
+                </td>
+            </tr>
+
+            <tr>
+                <td style="text-align: center">
+                    <input type="checkbox" name="" id="" style="margin-left: 10px;margin-right:10px">
+                </td>
+                <td>
+                    <span class="main">*</span>
+                    <b>1.Name
+                    </b>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+
+                </td>
+                <td>
+                    <b> Title</b>
+                    <label for="shri" style="margin-left: 20px;">Shri/Mr</label>
+                    <input type="radio" name="" id="shri">
+
+                    <label for="smt" style="margin-left: 20px;">Smt/Mrs</label>
+                    <input type="radio" name="" id="smt">
+
+
+                    <label for="ms" style="margin-left: 20px;">Kumari/Ms</label>
+                    <input type="radio" name="" id="ms">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+
+                </td>
+
+                <td>
+                    <div style="display: inline-block;">
+                        <b>
+                            <label for="Lastname/Surname">Lastname/Surname</label><br>
+                            <input type="text" name="" id="">
+                        </b>
+                    </div>
+
+                    <div style="display: inline-block; margin-left: 150px;">
+                        <b>
+                            <label for="Lastname/Surname">Firstname</label><br>
+                            <input type="text" name="" id="">
+                        </b>
+                    </div>
+
+                    <div style="display: inline-block; margin-left: 150px;">
+                        <b>
+                            <label for="Lastname/Surname">Middlename</label><br>
+                            <input type="text" name="" id="">
+                        </b>
+                    </div>
+
+
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+
+                </td>
+
+                <td>
+                    <span class="main">*</span>
+                    <b>Name as you would like it printed on the card </b>
+                    <span class="prefix">(Prefix like Shri, Smt, Kumari, Late, Dr, CA, Ms, Mr, Mrs, M/s, Alias etc. are
+                        not allowed.)</span>
+                </td>
+            </tr>
+
+            <tr>
+                <td></td>
+                <td>
+                    <input type="text" name="" id="" style="width:380px">
+                </td>
+            </tr>
+
+        </tbody>
+    </table>
+
+
+</body>
+
+</html>
